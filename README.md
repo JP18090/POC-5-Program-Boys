@@ -18,7 +18,7 @@ Esta prova de conceito (POC) visa demonstrar a capacidade do grupo ProgramBoys e
 ## Funcionalidades
 
 1.**Interface de Usuário Dinâmica**:
-- Uma interface moderna e responsiva, construída com componentes React, que facilita a navegação e consulta das informações de produtos.
+Uma interface moderna e responsiva, construída com componentes React, que facilita a navegação e consulta das informações de produtos.
 2. **Atualização em Tempo Real**:
 Utilização do estado do React para gerenciar e atualizar dinamicamente os dados exibidos com base nas interações do usuário.
 3. **Estrutura Básica de um Componente React**:
