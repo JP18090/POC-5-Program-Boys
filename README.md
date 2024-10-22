@@ -66,8 +66,7 @@ O React é uma poderosa biblioteca JavaScript para construir interfaces de usuá
 
 ## Exemplo de funcionamento (o que deve aparecer)
 
-
-
+![image](https://github.com/user-attachments/assets/06a6ee61-fa98-42e6-87cf-e9cc563c656b)
 
 **Feito com 🔺🔺🔺 por ProgramBoys**
 ```
