@@ -42,3 +42,29 @@ const InfoCard = ({ title, description, img }) => (
 
 export default InfoCard;
 ```
+
+### Sintaxe do React e Explicação
+O React é uma poderosa biblioteca JavaScript para construir interfaces de usuário, principalmente para aplicações web, cuja sintaxe, baseada em componentes e JSX, torna a construção de UIs interativas, dinâmicas e mais intuitiva.
+
+
+
+#### Sintaxe Básica do React
+
+```TypeScript
+
+```
+
+1. **import React from 'react'**: Importa a biblioteca React para usar em seu componente.
+2. **const MeuComponente = () => { ... }**: Define um componente funcional que retorna a interface desejada.
+3. **return ( ... )**: Retorna o JSX que descreve a UI do componente.
+4. **useState(inicial)**: Cria um estado local dentro do componente, permitindo gerenciar dados dinâmicos.
+5. **useEffect(() => { ... }, [dependências])**: Executa efeitos colaterais, como chamadas de API, após renderizações do componente.
+
+
+## Exemplo de funcionamento (o que deve aparecer)
+
+
+
+
+**Feito com 🔺🔺🔺 por ProgramBoys**
+```
