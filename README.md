@@ -28,19 +28,22 @@ Em React, a interface é construída a partir de componentes, que são funções
 Aqui está um exemplo simples de como criar um componente: 
 ```TypeScript
 import React from "react";
-import style from "./components/informacoes.module.css";
+import style from "./informacoes.module.css";
 
-const InfoCard = ({ title, description, img }) => (
-  <div className="info-card">
-    <img src={img} alt={title} className="card-image" />
-    <div className="card-content">
-      <h2>{title}</h2>
-      <p>{description}</p>
+export default function InfoCard({ title, description, img }) {
+  return (
+    <div className={style.cardContainer}>
+      <div className={style.infoCard}>
+        <img src={img} alt={title} className={style.cardImg} />
+        <div className={style.cardContent}>
+          <h2>{title}</h2>
+          <p>{description}</p>
+        </div>
+      </div>
     </div>
-  </div>
-);
+  );
+}
 
-export default InfoCard;
 ```
 
 ### Sintaxe do React e Explicação
