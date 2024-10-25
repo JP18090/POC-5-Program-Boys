@@ -86,9 +86,64 @@ Rotas Automáticas: No Next.js, cada arquivo na pasta pages se torna uma rota au
 
 #### Sintaxe Básica do React
 
-```TypeScript
+O que geralmente será visto na parte de pastas:
+
+my-nextjs-app/
+├── node_modules/
+├── public/
+│   └── favicon.ico
+├── components/
+│   └── HelloWorld.jsx -> Onde modificaremos nossos elementos
+│   └── HelloWorld.module.css -> CSS da página (precisa ser importado)
+├── pages/
+│   ├── _app.jsx
+│   └── index.jsx
+├── styles/
+│   ├── globals.css -> CSS padrão
+├── .gitignore
+├── package.json
+└── README.md
+
+
+``` Página hello world
+
+const HelloWorld = () => {
+  return <h1>Hello World!</h1>;
+};
+
+export default HelloWorld;
+
 
 ```
+
+``` Página de construção
+
+import HelloWorld from '../components/HelloWorld';
+
+const Home = () => {
+  return (
+    <div>
+      <HelloWorld />
+    </div>
+  );
+};
+
+export default Home;
+```
+
+``` CSS
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+```
+
+### Preparando o ambiente:
+
+Antes de iniciar, confira se excluiu os códigos padrões que o next já entrega, para contruir seu próprio. Seja na página ed contrução, ou no css global.
+
 #### Exemplos de funções
 
 1. **import & export**: A base. Permitem a conexão dos diferentes arquivos e a criação customizada da interface do usuário, até mesmo de seu carregamento.
